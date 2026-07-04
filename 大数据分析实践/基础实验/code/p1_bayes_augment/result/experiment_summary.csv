@@ -1,0 +1,4 @@
+﻿experiment,n_features,accuracy,macro_f1,weighted_f1
+5class,12,0.6138,0.6082,0.6064
+3class_direct,12,0.8265,0.8266,0.8259
+5class_mapped_to_3,12,0.8297,0.8289,0.8299

@@ -1,0 +1,2 @@
+﻿experiment,label_scheme,features,train_samples,test_samples,tree_depth,total_nodes,leaf_nodes,train_accuracy,test_accuracy,overfitting_gap,num_rules
+ID3-3超类,Big+Wing+PG,10,9291,3982,10,4783,3191,0.9779,0.7639,0.214,3191

@@ -1,0 +1,2 @@
+﻿model,test_accuracy,macro_f1,weighted_f1,age_effect
+NB-B (含 Age),0.5373887953835057,0.5321559717622639,0.5310376310902003,0.0

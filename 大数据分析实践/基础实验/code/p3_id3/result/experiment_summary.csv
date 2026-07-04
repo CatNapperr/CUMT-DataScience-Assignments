@@ -1,0 +1,2 @@
+﻿algorithm,train_samples,test_samples,features,tree_depth,total_nodes,leaf_nodes,train_accuracy,test_accuracy,overfitting_gap,num_rules
+ID3 Decision Tree,9702,4159,10,10,5736,3453,0.7719,0.5162,0.2557,3453

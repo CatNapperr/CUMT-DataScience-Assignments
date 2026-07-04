@@ -1,0 +1,584 @@
+sample,y_true,true_label,y_pred,pred_label,correct,prob_RolePlayer,prob_Rotation,prob_Star,prob_Superstar
+1,1,Rotation Player,1,Rotation Player,1,0.1359,0.8089,0.0543,0.0009
+2,1,Rotation Player,1,Rotation Player,1,0.1677,0.7884,0.0432,0.0006
+3,1,Rotation Player,2,Star,0,0.0075,0.4815,0.509,0.0021
+4,1,Rotation Player,1,Rotation Player,1,0.0147,0.676,0.3081,0.0012
+5,2,Star,2,Star,1,0.0041,0.2627,0.729,0.0043
+6,2,Star,2,Star,1,0.0074,0.4637,0.527,0.002
+7,1,Rotation Player,0,Role Player,0,0.8107,0.1872,0.002,0.0001
+8,0,Role Player,1,Rotation Player,0,0.4447,0.5486,0.0066,0.0001
+9,1,Rotation Player,0,Role Player,0,0.5949,0.3981,0.0068,0.0002
+10,0,Role Player,0,Role Player,1,0.8695,0.1273,0.003,0.0003
+11,2,Star,1,Rotation Player,0,0.0596,0.8006,0.1387,0.0012
+12,1,Rotation Player,1,Rotation Player,1,0.0127,0.5296,0.4541,0.0036
+13,1,Rotation Player,1,Rotation Player,1,0.4212,0.5606,0.0176,0.0007
+14,1,Rotation Player,1,Rotation Player,1,0.1389,0.8185,0.0419,0.0007
+15,1,Rotation Player,1,Rotation Player,1,0.2567,0.7247,0.0182,0.0003
+16,1,Rotation Player,1,Rotation Player,1,0.3186,0.6635,0.0174,0.0004
+17,0,Role Player,0,Role Player,1,0.5549,0.4363,0.0085,0.0003
+18,0,Role Player,0,Role Player,1,0.951,0.047,0.0017,0.0003
+19,1,Rotation Player,1,Rotation Player,1,0.0143,0.5362,0.445,0.0045
+20,0,Role Player,0,Role Player,1,0.54,0.4563,0.0036,0.0001
+21,0,Role Player,0,Role Player,1,0.6753,0.322,0.0026,0.0001
+22,0,Role Player,1,Rotation Player,0,0.3986,0.595,0.0063,0.0001
+23,0,Role Player,0,Role Player,1,0.8828,0.1151,0.0019,0.0001
+24,1,Rotation Player,1,Rotation Player,1,0.045,0.8753,0.0792,0.0005
+25,1,Rotation Player,1,Rotation Player,1,0.0109,0.7094,0.2784,0.0013
+26,0,Role Player,0,Role Player,1,0.8559,0.1421,0.0019,0.0001
+27,0,Role Player,0,Role Player,1,0.9502,0.0487,0.001,0.0002
+28,0,Role Player,0,Role Player,1,0.8957,0.0957,0.0073,0.0013
+29,0,Role Player,0,Role Player,1,0.9744,0.0245,0.0009,0.0002
+30,1,Rotation Player,1,Rotation Player,1,0.0344,0.7724,0.1912,0.002
+31,0,Role Player,0,Role Player,1,0.9647,0.0343,0.0008,0.0002
+32,0,Role Player,0,Role Player,1,0.9668,0.0324,0.0007,0.0002
+33,1,Rotation Player,1,Rotation Player,1,0.2133,0.7531,0.0332,0.0005
+34,0,Role Player,1,Rotation Player,0,0.2133,0.7421,0.0437,0.0009
+35,1,Rotation Player,1,Rotation Player,1,0.4163,0.5565,0.0265,0.0007
+36,2,Star,2,Star,1,0.0006,0.0179,0.7791,0.2024
+37,3,Superstar,2,Star,0,0.0008,0.016,0.6591,0.324
+38,1,Rotation Player,1,Rotation Player,1,0.1863,0.7871,0.0263,0.0004
+39,1,Rotation Player,1,Rotation Player,1,0.231,0.7571,0.0118,0.0001
+40,0,Role Player,0,Role Player,1,0.8453,0.1521,0.0025,0.0002
+41,0,Role Player,0,Role Player,1,0.8818,0.1167,0.0014,0.0001
+42,2,Star,1,Rotation Player,0,0.1019,0.6959,0.1979,0.0043
+43,1,Rotation Player,0,Role Player,0,0.6862,0.2706,0.0358,0.0074
+44,0,Role Player,1,Rotation Player,0,0.4071,0.5611,0.0302,0.0016
+45,1,Rotation Player,1,Rotation Player,1,0.0951,0.8538,0.0507,0.0004
+46,0,Role Player,1,Rotation Player,0,0.1779,0.8092,0.0128,0.0001
+47,1,Rotation Player,1,Rotation Player,1,0.1706,0.7896,0.0392,0.0006
+48,1,Rotation Player,1,Rotation Player,1,0.0781,0.8591,0.0623,0.0006
+49,1,Rotation Player,1,Rotation Player,1,0.0382,0.8786,0.0828,0.0005
+50,1,Rotation Player,1,Rotation Player,1,0.2399,0.7458,0.0142,0.0002
+51,0,Role Player,0,Role Player,1,0.4985,0.4687,0.0308,0.002
+52,1,Rotation Player,0,Role Player,0,0.7147,0.2656,0.0181,0.0016
+53,0,Role Player,0,Role Player,1,0.944,0.055,0.0009,0.0001
+54,0,Role Player,0,Role Player,1,0.9392,0.0598,0.0009,0.0001
+55,2,Star,2,Star,1,0.0013,0.0313,0.802,0.1654
+56,2,Star,2,Star,1,0.0012,0.0266,0.7489,0.2232
+57,1,Rotation Player,0,Role Player,0,0.6862,0.3091,0.0045,0.0002
+58,0,Role Player,0,Role Player,1,0.6953,0.2993,0.0052,0.0003
+59,2,Star,1,Rotation Player,0,0.0124,0.6413,0.3449,0.0014
+60,2,Star,2,Star,1,0.0023,0.2116,0.7803,0.0058
+61,1,Rotation Player,1,Rotation Player,1,0.1574,0.821,0.0214,0.0002
+62,1,Rotation Player,1,Rotation Player,1,0.2349,0.7563,0.0087,0.0001
+63,1,Rotation Player,1,Rotation Player,1,0.1825,0.807,0.0104,0.0001
+64,2,Star,1,Rotation Player,0,0.312,0.6808,0.0071,0.0001
+65,1,Rotation Player,2,Star,0,0.0056,0.3687,0.6209,0.0047
+66,0,Role Player,1,Rotation Player,0,0.1071,0.8407,0.0518,0.0005
+67,2,Star,2,Star,1,0.0076,0.3911,0.5947,0.0066
+68,2,Star,2,Star,1,0.0063,0.3812,0.6088,0.0037
+69,0,Role Player,0,Role Player,1,0.8621,0.1185,0.0163,0.0031
+70,0,Role Player,0,Role Player,1,0.9458,0.0479,0.0048,0.0014
+71,1,Rotation Player,1,Rotation Player,1,0.3202,0.6588,0.0205,0.0004
+72,1,Rotation Player,1,Rotation Player,1,0.2598,0.7127,0.0269,0.0006
+73,2,Star,2,Star,1,0.0034,0.1105,0.8544,0.0317
+74,2,Star,2,Star,1,0.001,0.0395,0.8851,0.0744
+75,2,Star,2,Star,1,0.0067,0.2345,0.7335,0.0254
+76,2,Star,1,Rotation Player,0,0.023,0.7602,0.2158,0.001
+77,1,Rotation Player,1,Rotation Player,1,0.0451,0.8393,0.1149,0.0007
+78,0,Role Player,1,Rotation Player,0,0.2699,0.7121,0.0177,0.0003
+79,0,Role Player,0,Role Player,1,0.8732,0.124,0.0027,0.0002
+80,2,Star,1,Rotation Player,0,0.2799,0.705,0.0148,0.0003
+81,2,Star,2,Star,1,0.0019,0.0559,0.8201,0.1221
+82,2,Star,2,Star,1,0.0024,0.0975,0.8651,0.035
+83,1,Rotation Player,0,Role Player,0,0.6508,0.3442,0.0048,0.0001
+84,1,Rotation Player,1,Rotation Player,1,0.0348,0.8934,0.0713,0.0005
+85,0,Role Player,1,Rotation Player,0,0.036,0.9013,0.0624,0.0004
+86,1,Rotation Player,0,Role Player,0,0.7483,0.2494,0.0022,0.0001
+87,1,Rotation Player,1,Rotation Player,1,0.1675,0.775,0.0566,0.0009
+88,0,Role Player,1,Rotation Player,0,0.2385,0.7486,0.0128,0.0002
+89,0,Role Player,0,Role Player,1,0.9306,0.0679,0.0013,0.0002
+90,0,Role Player,0,Role Player,1,0.9687,0.0304,0.0008,0.0002
+91,2,Star,2,Star,1,0.0018,0.1854,0.8067,0.006
+92,0,Role Player,1,Rotation Player,0,0.1985,0.7532,0.0478,0.0005
+93,0,Role Player,0,Role Player,1,0.6439,0.3475,0.0081,0.0004
+94,1,Rotation Player,1,Rotation Player,1,0.0969,0.7887,0.1129,0.0014
+95,2,Star,2,Star,1,0.0021,0.1937,0.798,0.0062
+96,2,Star,2,Star,1,0.0011,0.1026,0.8845,0.0117
+97,0,Role Player,0,Role Player,1,0.9763,0.0205,0.0022,0.0009
+98,1,Rotation Player,1,Rotation Player,1,0.279,0.7119,0.009,0.0001
+99,1,Rotation Player,0,Role Player,0,0.7817,0.2117,0.006,0.0006
+100,0,Role Player,1,Rotation Player,0,0.3842,0.601,0.0143,0.0005
+101,1,Rotation Player,1,Rotation Player,1,0.1044,0.8616,0.0336,0.0004
+102,0,Role Player,1,Rotation Player,0,0.4207,0.5711,0.0081,0.0001
+103,0,Role Player,1,Rotation Player,0,0.1635,0.8124,0.0238,0.0003
+104,1,Rotation Player,1,Rotation Player,1,0.2722,0.7161,0.0115,0.0002
+105,0,Role Player,1,Rotation Player,0,0.4844,0.5099,0.0056,0.0001
+106,1,Rotation Player,0,Role Player,0,0.5358,0.4596,0.0045,0.0001
+107,1,Rotation Player,1,Rotation Player,1,0.1911,0.7739,0.0345,0.0005
+108,1,Rotation Player,1,Rotation Player,1,0.1183,0.8566,0.0249,0.0002
+109,0,Role Player,0,Role Player,1,0.8678,0.1191,0.0117,0.0014
+110,3,Superstar,0,Role Player,0,0.9304,0.0635,0.005,0.0011
+111,3,Superstar,2,Star,0,0.0015,0.1324,0.8585,0.0076
+112,3,Superstar,2,Star,0,0.001,0.0567,0.8975,0.0449
+113,2,Star,1,Rotation Player,0,0.012,0.6028,0.3838,0.0015
+114,2,Star,2,Star,1,0.0026,0.1884,0.7997,0.0094
+115,0,Role Player,1,Rotation Player,0,0.2688,0.7236,0.0075,0.0001
+116,0,Role Player,0,Role Player,1,0.6922,0.3052,0.0025,0.0001
+117,0,Role Player,0,Role Player,1,0.9298,0.0688,0.0012,0.0001
+118,0,Role Player,0,Role Player,1,0.9712,0.0277,0.0009,0.0002
+119,1,Rotation Player,1,Rotation Player,1,0.3146,0.6627,0.0221,0.0005
+120,1,Rotation Player,1,Rotation Player,1,0.395,0.5883,0.0162,0.0004
+121,1,Rotation Player,1,Rotation Player,1,0.0112,0.6625,0.3243,0.002
+122,1,Rotation Player,1,Rotation Player,1,0.016,0.7405,0.2422,0.0013
+123,1,Rotation Player,1,Rotation Player,1,0.0786,0.8385,0.0825,0.0005
+124,1,Rotation Player,1,Rotation Player,1,0.0697,0.876,0.0539,0.0004
+125,1,Rotation Player,1,Rotation Player,1,0.1709,0.8123,0.0166,0.0002
+126,1,Rotation Player,1,Rotation Player,1,0.3117,0.6792,0.009,0.0001
+127,1,Rotation Player,0,Role Player,0,0.6682,0.329,0.0027,0.0001
+128,1,Rotation Player,0,Role Player,0,0.5743,0.422,0.0036,0.0001
+129,0,Role Player,2,Star,0,0.0726,0.3247,0.4664,0.1363
+130,0,Role Player,0,Role Player,1,0.5775,0.4111,0.0111,0.0004
+131,2,Star,2,Star,1,0.0067,0.1513,0.7818,0.0602
+132,3,Superstar,2,Star,0,0.0024,0.0328,0.5655,0.3993
+133,3,Superstar,3,Superstar,1,0.0013,0.0134,0.458,0.5273
+134,3,Superstar,3,Superstar,1,0.0012,0.0099,0.3216,0.6673
+135,1,Rotation Player,1,Rotation Player,1,0.2432,0.7466,0.0101,0.0002
+136,1,Rotation Player,1,Rotation Player,1,0.34,0.6541,0.0058,0.0001
+137,2,Star,2,Star,1,0.0201,0.4481,0.5217,0.0101
+138,1,Rotation Player,1,Rotation Player,1,0.0317,0.8861,0.0818,0.0004
+139,1,Rotation Player,1,Rotation Player,1,0.0626,0.8966,0.0404,0.0004
+140,2,Star,1,Rotation Player,0,0.0092,0.5548,0.4327,0.0033
+141,1,Rotation Player,2,Star,0,0.0066,0.4624,0.5284,0.0026
+142,2,Star,2,Star,1,0.0054,0.2996,0.6864,0.0086
+143,2,Star,1,Rotation Player,0,0.0123,0.5265,0.4581,0.003
+144,2,Star,1,Rotation Player,0,0.0543,0.8161,0.1287,0.0008
+145,1,Rotation Player,1,Rotation Player,1,0.0221,0.6466,0.3287,0.0026
+146,1,Rotation Player,1,Rotation Player,1,0.2159,0.7666,0.0172,0.0002
+147,1,Rotation Player,1,Rotation Player,1,0.326,0.6604,0.0134,0.0003
+148,0,Role Player,0,Role Player,1,0.8123,0.1824,0.0048,0.0005
+149,1,Rotation Player,1,Rotation Player,1,0.0316,0.7187,0.2483,0.0015
+150,2,Star,1,Rotation Player,0,0.1402,0.8286,0.0309,0.0002
+151,2,Star,2,Star,1,0.0059,0.3279,0.6619,0.0044
+152,2,Star,2,Star,1,0.0044,0.3072,0.6838,0.0045
+153,0,Role Player,0,Role Player,1,0.7032,0.272,0.0228,0.002
+154,1,Rotation Player,1,Rotation Player,1,0.0859,0.8516,0.0619,0.0006
+155,0,Role Player,1,Rotation Player,0,0.146,0.8155,0.038,0.0004
+156,1,Rotation Player,1,Rotation Player,1,0.3656,0.6175,0.0165,0.0004
+157,0,Role Player,1,Rotation Player,0,0.084,0.8241,0.0905,0.0014
+158,0,Role Player,0,Role Player,1,0.5922,0.3789,0.0271,0.0018
+159,1,Rotation Player,1,Rotation Player,1,0.0199,0.6169,0.3601,0.0031
+160,1,Rotation Player,1,Rotation Player,1,0.072,0.8052,0.1216,0.0011
+161,2,Star,2,Star,1,0.0014,0.0421,0.8391,0.1174
+162,2,Star,2,Star,1,0.0051,0.1155,0.8088,0.0707
+163,1,Rotation Player,1,Rotation Player,1,0.4696,0.5198,0.0103,0.0002
+164,1,Rotation Player,1,Rotation Player,1,0.3938,0.5916,0.0143,0.0004
+165,0,Role Player,1,Rotation Player,0,0.4313,0.5634,0.0052,0.0001
+166,0,Role Player,0,Role Player,1,0.593,0.4035,0.0034,0.0001
+167,0,Role Player,1,Rotation Player,0,0.4152,0.56,0.0243,0.0005
+168,0,Role Player,0,Role Player,1,0.9737,0.0248,0.0012,0.0003
+169,2,Star,2,Star,1,0.007,0.3823,0.6055,0.0052
+170,2,Star,2,Star,1,0.0032,0.2021,0.7872,0.0076
+171,2,Star,1,Rotation Player,0,0.0146,0.5907,0.392,0.0027
+172,2,Star,2,Star,1,0.001,0.0725,0.8924,0.0342
+173,1,Rotation Player,1,Rotation Player,1,0.0621,0.8616,0.0759,0.0005
+174,2,Star,1,Rotation Player,0,0.0668,0.9022,0.0307,0.0002
+175,1,Rotation Player,1,Rotation Player,1,0.0368,0.8683,0.0943,0.0005
+176,2,Star,1,Rotation Player,0,0.1276,0.8455,0.0267,0.0002
+177,1,Rotation Player,1,Rotation Player,1,0.0488,0.8405,0.11,0.0006
+178,2,Star,1,Rotation Player,0,0.02,0.6899,0.288,0.0021
+179,1,Rotation Player,1,Rotation Player,1,0.3117,0.6726,0.0155,0.0002
+180,1,Rotation Player,1,Rotation Player,1,0.2058,0.778,0.016,0.0002
+181,0,Role Player,0,Role Player,1,0.9137,0.0803,0.0053,0.0007
+182,0,Role Player,0,Role Player,1,0.855,0.1372,0.007,0.0007
+183,1,Rotation Player,1,Rotation Player,1,0.1273,0.7972,0.0744,0.0011
+184,0,Role Player,1,Rotation Player,0,0.1057,0.8047,0.0883,0.0012
+185,1,Rotation Player,1,Rotation Player,1,0.0466,0.7925,0.1582,0.0027
+186,2,Star,1,Rotation Player,0,0.2993,0.6864,0.0141,0.0003
+187,1,Rotation Player,1,Rotation Player,1,0.0401,0.7132,0.2441,0.0025
+188,1,Rotation Player,1,Rotation Player,1,0.0871,0.8458,0.0666,0.0004
+189,1,Rotation Player,1,Rotation Player,1,0.0873,0.8741,0.0382,0.0003
+190,1,Rotation Player,1,Rotation Player,1,0.1327,0.8443,0.0227,0.0002
+191,2,Star,2,Star,1,0.0083,0.4097,0.5733,0.0087
+192,1,Rotation Player,1,Rotation Player,1,0.0141,0.5702,0.413,0.0027
+193,0,Role Player,1,Rotation Player,0,0.1552,0.769,0.0748,0.001
+194,1,Rotation Player,2,Star,0,0.0018,0.1708,0.8173,0.0101
+195,2,Star,1,Rotation Player,0,0.0416,0.8182,0.1393,0.0008
+196,2,Star,2,Star,1,0.0016,0.1308,0.8551,0.0125
+197,2,Star,2,Star,1,0.005,0.3414,0.6494,0.0042
+198,0,Role Player,1,Rotation Player,0,0.3355,0.6556,0.0087,0.0002
+199,2,Star,2,Star,1,0.0066,0.4908,0.5,0.0026
+200,2,Star,2,Star,1,0.0068,0.4728,0.518,0.0024
+201,0,Role Player,0,Role Player,1,0.8787,0.1197,0.0015,0.0001
+202,0,Role Player,1,Rotation Player,0,0.3704,0.6184,0.011,0.0002
+203,0,Role Player,0,Role Player,1,0.6688,0.3253,0.0057,0.0002
+204,1,Rotation Player,1,Rotation Player,1,0.2244,0.766,0.0095,0.0001
+205,2,Star,1,Rotation Player,0,0.1818,0.8068,0.0112,0.0001
+206,1,Rotation Player,1,Rotation Player,1,0.4338,0.5142,0.0472,0.0048
+207,2,Star,1,Rotation Player,0,0.0749,0.8086,0.1138,0.0026
+208,1,Rotation Player,1,Rotation Player,1,0.0679,0.8396,0.0918,0.0007
+209,0,Role Player,0,Role Player,1,0.5132,0.481,0.0056,0.0001
+210,1,Rotation Player,1,Rotation Player,1,0.2734,0.6853,0.0405,0.0008
+211,1,Rotation Player,0,Role Player,0,0.971,0.0273,0.0014,0.0004
+212,0,Role Player,0,Role Player,1,0.8611,0.1353,0.0033,0.0004
+213,0,Role Player,0,Role Player,1,0.4961,0.4956,0.0081,0.0002
+214,0,Role Player,0,Role Player,1,0.8625,0.1351,0.0023,0.0002
+215,0,Role Player,1,Rotation Player,0,0.1637,0.8012,0.0347,0.0004
+216,2,Star,2,Star,1,0.0038,0.171,0.8065,0.0187
+217,3,Superstar,2,Star,0,0.0011,0.0384,0.7892,0.1713
+218,1,Rotation Player,0,Role Player,0,0.5451,0.3761,0.0703,0.0085
+219,1,Rotation Player,1,Rotation Player,1,0.2581,0.6644,0.0741,0.0034
+220,1,Rotation Player,1,Rotation Player,1,0.2001,0.763,0.0364,0.0006
+221,1,Rotation Player,1,Rotation Player,1,0.1549,0.7709,0.0723,0.0019
+222,1,Rotation Player,1,Rotation Player,1,0.2227,0.7603,0.0168,0.0002
+223,2,Star,1,Rotation Player,0,0.0255,0.809,0.1645,0.001
+224,2,Star,1,Rotation Player,0,0.0114,0.6293,0.3576,0.0017
+225,1,Rotation Player,1,Rotation Player,1,0.1454,0.8397,0.0148,0.0001
+226,0,Role Player,1,Rotation Player,0,0.2346,0.7574,0.0079,0.0001
+227,1,Rotation Player,1,Rotation Player,1,0.3353,0.6202,0.0431,0.0015
+228,2,Star,1,Rotation Player,0,0.3174,0.6379,0.0427,0.002
+229,1,Rotation Player,1,Rotation Player,1,0.2998,0.6853,0.0147,0.0003
+230,1,Rotation Player,1,Rotation Player,1,0.1198,0.8179,0.0612,0.0011
+231,2,Star,2,Star,1,0.0093,0.4641,0.5228,0.0038
+232,1,Rotation Player,1,Rotation Player,1,0.0241,0.6442,0.3291,0.0026
+233,0,Role Player,1,Rotation Player,0,0.3767,0.6139,0.0092,0.0002
+234,1,Rotation Player,0,Role Player,0,0.7831,0.2123,0.0043,0.0003
+235,0,Role Player,1,Rotation Player,0,0.3967,0.5889,0.014,0.0003
+236,3,Superstar,3,Superstar,1,0.0014,0.0139,0.3716,0.6131
+237,3,Superstar,3,Superstar,1,0.0017,0.0158,0.3703,0.6122
+238,0,Role Player,1,Rotation Player,0,0.2102,0.7669,0.0225,0.0004
+239,1,Rotation Player,0,Role Player,0,0.6098,0.3852,0.0049,0.0001
+240,1,Rotation Player,0,Role Player,0,0.6796,0.3151,0.0051,0.0002
+241,1,Rotation Player,1,Rotation Player,1,0.4657,0.5282,0.006,0.0001
+242,0,Role Player,1,Rotation Player,0,0.3103,0.5943,0.0918,0.0036
+243,0,Role Player,0,Role Player,1,0.7138,0.2828,0.0032,0.0001
+244,0,Role Player,0,Role Player,1,0.8452,0.1521,0.0024,0.0002
+245,1,Rotation Player,1,Rotation Player,1,0.0286,0.7891,0.1812,0.001
+246,0,Role Player,1,Rotation Player,0,0.0175,0.7149,0.2667,0.0009
+247,1,Rotation Player,1,Rotation Player,1,0.1632,0.8137,0.0228,0.0003
+248,0,Role Player,1,Rotation Player,0,0.2408,0.7349,0.0238,0.0005
+249,1,Rotation Player,1,Rotation Player,1,0.3,0.6878,0.0119,0.0002
+250,1,Rotation Player,1,Rotation Player,1,0.1989,0.7864,0.0145,0.0002
+251,1,Rotation Player,0,Role Player,0,0.8793,0.1177,0.0028,0.0003
+252,0,Role Player,0,Role Player,1,0.8923,0.1036,0.0037,0.0004
+253,0,Role Player,0,Role Player,1,0.9296,0.0693,0.001,0.0001
+254,0,Role Player,0,Role Player,1,0.813,0.1778,0.0082,0.001
+255,1,Rotation Player,1,Rotation Player,1,0.0268,0.8083,0.1641,0.0008
+256,1,Rotation Player,1,Rotation Player,1,0.0688,0.8806,0.0503,0.0003
+257,2,Star,2,Star,1,0.0027,0.2184,0.7722,0.0066
+258,1,Rotation Player,2,Star,0,0.0051,0.3257,0.6644,0.0049
+259,1,Rotation Player,0,Role Player,0,0.6761,0.3184,0.0053,0.0002
+260,0,Role Player,0,Role Player,1,0.6563,0.3392,0.0044,0.0002
+261,1,Rotation Player,1,Rotation Player,1,0.0523,0.7791,0.1672,0.0014
+262,2,Star,1,Rotation Player,0,0.035,0.7647,0.1989,0.0014
+263,1,Rotation Player,1,Rotation Player,1,0.0218,0.8319,0.1455,0.0008
+264,2,Star,1,Rotation Player,0,0.0431,0.8705,0.0859,0.0005
+265,1,Rotation Player,1,Rotation Player,1,0.2255,0.758,0.0163,0.0002
+266,1,Rotation Player,1,Rotation Player,1,0.3126,0.6759,0.0113,0.0002
+267,2,Star,1,Rotation Player,0,0.1451,0.7811,0.0731,0.0007
+268,2,Star,1,Rotation Player,0,0.0378,0.7538,0.2046,0.0038
+269,2,Star,2,Star,1,0.0037,0.2135,0.7672,0.0156
+270,0,Role Player,0,Role Player,1,0.9425,0.0568,0.0007,0.0001
+271,0,Role Player,0,Role Player,1,0.9828,0.0167,0.0004,0.0001
+272,2,Star,1,Rotation Player,0,0.0787,0.854,0.0666,0.0007
+273,1,Rotation Player,1,Rotation Player,1,0.0595,0.859,0.081,0.0006
+274,1,Rotation Player,1,Rotation Player,1,0.1609,0.8261,0.0128,0.0001
+275,1,Rotation Player,1,Rotation Player,1,0.2805,0.7112,0.0082,0.0001
+276,0,Role Player,0,Role Player,1,0.976,0.0216,0.0017,0.0007
+277,0,Role Player,0,Role Player,1,0.9755,0.0227,0.0014,0.0005
+278,1,Rotation Player,1,Rotation Player,1,0.1835,0.7853,0.0308,0.0004
+279,1,Rotation Player,1,Rotation Player,1,0.2661,0.7178,0.0158,0.0003
+280,1,Rotation Player,1,Rotation Player,1,0.3021,0.6784,0.0191,0.0004
+281,2,Star,1,Rotation Player,0,0.2755,0.6937,0.0301,0.0007
+282,0,Role Player,0,Role Player,1,0.6375,0.3198,0.0389,0.0038
+283,2,Star,2,Star,1,0.0104,0.4174,0.5656,0.0066
+284,2,Star,2,Star,1,0.002,0.1506,0.8372,0.0101
+285,1,Rotation Player,1,Rotation Player,1,0.2164,0.7617,0.0217,0.0003
+286,1,Rotation Player,1,Rotation Player,1,0.1167,0.8413,0.0415,0.0005
+287,0,Role Player,1,Rotation Player,0,0.3419,0.6468,0.0111,0.0002
+288,0,Role Player,0,Role Player,1,0.6577,0.3365,0.0056,0.0002
+289,1,Rotation Player,1,Rotation Player,1,0.0533,0.8708,0.0753,0.0006
+290,1,Rotation Player,1,Rotation Player,1,0.0177,0.7731,0.2082,0.001
+291,2,Star,1,Rotation Player,0,0.0186,0.6772,0.3028,0.0015
+292,1,Rotation Player,1,Rotation Player,1,0.4126,0.5753,0.0119,0.0002
+293,1,Rotation Player,1,Rotation Player,1,0.2575,0.7292,0.0131,0.0002
+294,1,Rotation Player,1,Rotation Player,1,0.3927,0.5925,0.0145,0.0002
+295,1,Rotation Player,1,Rotation Player,1,0.0607,0.8787,0.0602,0.0004
+296,0,Role Player,1,Rotation Player,0,0.1078,0.8635,0.0285,0.0002
+297,0,Role Player,0,Role Player,1,0.6683,0.3278,0.0038,0.0002
+298,0,Role Player,0,Role Player,1,0.9025,0.0957,0.0016,0.0002
+299,0,Role Player,0,Role Player,1,0.9305,0.0681,0.0013,0.0002
+300,0,Role Player,0,Role Player,1,0.9441,0.0541,0.0015,0.0002
+301,1,Rotation Player,1,Rotation Player,1,0.0615,0.878,0.0602,0.0003
+302,2,Star,1,Rotation Player,0,0.0152,0.7576,0.2257,0.0014
+303,1,Rotation Player,2,Star,0,0.0024,0.19,0.7973,0.0103
+304,1,Rotation Player,0,Role Player,0,0.508,0.4701,0.0211,0.0008
+305,2,Star,2,Star,1,0.0042,0.3342,0.656,0.0056
+306,3,Superstar,2,Star,0,0.0008,0.0682,0.9108,0.0203
+307,1,Rotation Player,1,Rotation Player,1,0.0217,0.7499,0.2274,0.001
+308,2,Star,2,Star,1,0.0046,0.336,0.6552,0.0043
+309,2,Star,2,Star,1,0.0018,0.1291,0.8525,0.0166
+310,0,Role Player,0,Role Player,1,0.7184,0.2712,0.0097,0.0007
+311,0,Role Player,0,Role Player,1,0.9737,0.0233,0.002,0.0009
+312,1,Rotation Player,1,Rotation Player,1,0.0438,0.8703,0.0855,0.0004
+313,1,Rotation Player,1,Rotation Player,1,0.0166,0.7934,0.1893,0.0007
+314,1,Rotation Player,0,Role Player,0,0.6424,0.3361,0.0204,0.0011
+315,1,Rotation Player,1,Rotation Player,1,0.1893,0.7786,0.0316,0.0005
+316,1,Rotation Player,1,Rotation Player,1,0.1239,0.8401,0.0355,0.0005
+317,3,Superstar,2,Star,0,0.0014,0.0193,0.492,0.4873
+318,3,Superstar,3,Superstar,1,0.001,0.0143,0.4663,0.5184
+319,0,Role Player,0,Role Player,1,0.8414,0.153,0.0052,0.0004
+320,2,Star,1,Rotation Player,0,0.0179,0.5387,0.4394,0.004
+321,2,Star,1,Rotation Player,0,0.0059,0.5139,0.4787,0.0015
+322,1,Rotation Player,2,Star,0,0.0044,0.2358,0.7502,0.0095
+323,1,Rotation Player,1,Rotation Player,1,0.1994,0.7415,0.0578,0.0013
+324,1,Rotation Player,1,Rotation Player,1,0.4121,0.5342,0.0508,0.0029
+325,2,Star,1,Rotation Player,0,0.0597,0.8449,0.0943,0.0011
+326,1,Rotation Player,2,Star,0,0.0056,0.3765,0.6128,0.005
+327,0,Role Player,0,Role Player,1,0.959,0.0389,0.0017,0.0004
+328,2,Star,2,Star,1,0.0014,0.1313,0.8552,0.0121
+329,2,Star,2,Star,1,0.0027,0.2502,0.7432,0.0039
+330,2,Star,2,Star,1,0.0067,0.1943,0.7405,0.0584
+331,1,Rotation Player,0,Role Player,0,0.6205,0.3761,0.0033,0.0001
+332,0,Role Player,0,Role Player,1,0.5066,0.487,0.0062,0.0002
+333,1,Rotation Player,1,Rotation Player,1,0.3403,0.6508,0.0088,0.0002
+334,1,Rotation Player,1,Rotation Player,1,0.2483,0.7405,0.011,0.0001
+335,0,Role Player,0,Role Player,1,0.5099,0.4862,0.0038,0.0001
+336,1,Rotation Player,0,Role Player,0,0.779,0.2191,0.0018,0.0001
+337,2,Star,2,Star,1,0.0048,0.3627,0.6287,0.0038
+338,2,Star,2,Star,1,0.0017,0.169,0.8228,0.0065
+339,1,Rotation Player,1,Rotation Player,1,0.4059,0.584,0.0098,0.0002
+340,1,Rotation Player,1,Rotation Player,1,0.2784,0.7058,0.0155,0.0003
+341,0,Role Player,0,Role Player,1,0.81,0.1878,0.0021,0.0001
+342,0,Role Player,0,Role Player,1,0.8997,0.0983,0.0018,0.0002
+343,2,Star,2,Star,1,0.0015,0.0922,0.8772,0.0291
+344,3,Superstar,2,Star,0,0.0014,0.0823,0.8846,0.0318
+345,2,Star,2,Star,1,0.0013,0.0581,0.9036,0.037
+346,2,Star,2,Star,1,0.0024,0.1263,0.8573,0.014
+347,1,Rotation Player,1,Rotation Player,1,0.481,0.5116,0.0072,0.0002
+348,1,Rotation Player,1,Rotation Player,1,0.1965,0.7874,0.0159,0.0002
+349,1,Rotation Player,0,Role Player,0,0.8779,0.1119,0.0091,0.0012
+350,0,Role Player,0,Role Player,1,0.7697,0.2161,0.013,0.0011
+351,0,Role Player,1,Rotation Player,0,0.2109,0.7791,0.0099,0.0001
+352,0,Role Player,0,Role Player,1,0.5942,0.4025,0.0033,0.0001
+353,0,Role Player,0,Role Player,1,0.6393,0.3574,0.0032,0.0001
+354,0,Role Player,0,Role Player,1,0.8382,0.1584,0.0032,0.0002
+355,0,Role Player,0,Role Player,1,0.9017,0.0958,0.0023,0.0002
+356,3,Superstar,2,Star,0,0.001,0.0212,0.6425,0.3352
+357,3,Superstar,2,Star,0,0.001,0.0199,0.6102,0.3689
+358,1,Rotation Player,1,Rotation Player,1,0.2612,0.6619,0.0731,0.0038
+359,1,Rotation Player,1,Rotation Player,1,0.2957,0.6592,0.0435,0.0016
+360,0,Role Player,0,Role Player,1,0.9224,0.0608,0.0119,0.0049
+361,2,Star,2,Star,1,0.0072,0.3543,0.6296,0.0089
+362,3,Superstar,1,Rotation Player,0,0.0205,0.519,0.4556,0.005
+363,0,Role Player,0,Role Player,1,0.6315,0.3632,0.0052,0.0002
+364,0,Role Player,0,Role Player,1,0.9508,0.0475,0.0015,0.0002
+365,1,Rotation Player,1,Rotation Player,1,0.1869,0.7681,0.0442,0.0008
+366,1,Rotation Player,1,Rotation Player,1,0.3603,0.6045,0.034,0.0012
+367,1,Rotation Player,0,Role Player,0,0.6602,0.3354,0.0043,0.0001
+368,0,Role Player,1,Rotation Player,0,0.3967,0.5947,0.0084,0.0002
+369,1,Rotation Player,1,Rotation Player,1,0.1072,0.8735,0.0192,0.0002
+370,0,Role Player,1,Rotation Player,0,0.1844,0.8059,0.0096,0.0001
+371,0,Role Player,1,Rotation Player,0,0.1501,0.8027,0.0467,0.0006
+372,1,Rotation Player,1,Rotation Player,1,0.0562,0.8352,0.1077,0.0009
+373,1,Rotation Player,1,Rotation Player,1,0.073,0.857,0.0693,0.0007
+374,1,Rotation Player,1,Rotation Player,1,0.0179,0.7512,0.2292,0.0017
+375,2,Star,1,Rotation Player,0,0.0326,0.8277,0.1389,0.0008
+376,1,Rotation Player,1,Rotation Player,1,0.2756,0.7176,0.0067,0.0001
+377,1,Rotation Player,1,Rotation Player,1,0.1412,0.8465,0.0121,0.0001
+378,1,Rotation Player,1,Rotation Player,1,0.207,0.7779,0.0149,0.0002
+379,1,Rotation Player,1,Rotation Player,1,0.1565,0.828,0.0153,0.0002
+380,1,Rotation Player,1,Rotation Player,1,0.158,0.7933,0.048,0.0007
+381,1,Rotation Player,1,Rotation Player,1,0.104,0.8746,0.0212,0.0002
+382,2,Star,1,Rotation Player,0,0.0554,0.8453,0.0985,0.0008
+383,1,Rotation Player,1,Rotation Player,1,0.0855,0.7828,0.13,0.0017
+384,1,Rotation Player,1,Rotation Player,1,0.3157,0.6745,0.0096,0.0002
+385,1,Rotation Player,1,Rotation Player,1,0.0161,0.6023,0.3789,0.0027
+386,1,Rotation Player,1,Rotation Player,1,0.0208,0.688,0.29,0.0012
+387,2,Star,2,Star,1,0.0152,0.2738,0.6713,0.0397
+388,2,Star,2,Star,1,0.021,0.286,0.658,0.035
+389,1,Rotation Player,0,Role Player,0,0.8041,0.1936,0.0021,0.0001
+390,1,Rotation Player,1,Rotation Player,1,0.4378,0.5562,0.0059,0.0002
+391,1,Rotation Player,1,Rotation Player,1,0.3482,0.6413,0.0103,0.0002
+392,1,Rotation Player,0,Role Player,0,0.6494,0.3471,0.0034,0.0001
+393,0,Role Player,0,Role Player,1,0.7333,0.2633,0.0032,0.0002
+394,1,Rotation Player,0,Role Player,0,0.9416,0.0567,0.0014,0.0002
+395,0,Role Player,0,Role Player,1,0.7948,0.1991,0.0057,0.0005
+396,1,Rotation Player,0,Role Player,0,0.7714,0.2259,0.0025,0.0001
+397,1,Rotation Player,1,Rotation Player,1,0.4137,0.577,0.0091,0.0002
+398,0,Role Player,0,Role Player,1,0.6722,0.3192,0.0082,0.0004
+399,1,Rotation Player,0,Role Player,0,0.7769,0.2146,0.008,0.0005
+400,1,Rotation Player,0,Role Player,0,0.5447,0.4489,0.0062,0.0002
+401,0,Role Player,0,Role Player,1,0.5045,0.4871,0.0081,0.0002
+402,3,Superstar,1,Rotation Player,0,0.0437,0.7443,0.2104,0.0016
+403,2,Star,2,Star,1,0.0058,0.1769,0.7725,0.0448
+404,1,Rotation Player,1,Rotation Player,1,0.1405,0.8164,0.0427,0.0004
+405,1,Rotation Player,1,Rotation Player,1,0.2395,0.7511,0.0093,0.0001
+406,0,Role Player,1,Rotation Player,0,0.0936,0.8801,0.0261,0.0002
+407,1,Rotation Player,2,Star,0,0.0067,0.4835,0.5073,0.0025
+408,2,Star,2,Star,1,0.0048,0.3844,0.6076,0.0032
+409,0,Role Player,0,Role Player,1,0.6716,0.3253,0.003,0.0001
+410,0,Role Player,0,Role Player,1,0.8408,0.1569,0.0021,0.0002
+411,0,Role Player,0,Role Player,1,0.9663,0.0327,0.0008,0.0002
+412,0,Role Player,0,Role Player,1,0.9804,0.0185,0.0008,0.0002
+413,1,Rotation Player,1,Rotation Player,1,0.4042,0.5849,0.0107,0.0002
+414,1,Rotation Player,1,Rotation Player,1,0.0518,0.7566,0.1899,0.0017
+415,0,Role Player,1,Rotation Player,0,0.1366,0.8272,0.0358,0.0003
+416,1,Rotation Player,0,Role Player,0,0.9343,0.0627,0.0026,0.0005
+417,0,Role Player,0,Role Player,1,0.7505,0.2456,0.0036,0.0002
+418,2,Star,1,Rotation Player,0,0.4274,0.5615,0.0108,0.0002
+419,1,Rotation Player,1,Rotation Player,1,0.1949,0.7864,0.0184,0.0002
+420,1,Rotation Player,1,Rotation Player,1,0.1319,0.8319,0.0357,0.0006
+421,1,Rotation Player,2,Star,0,0.0045,0.3098,0.6789,0.0068
+422,0,Role Player,1,Rotation Player,0,0.0982,0.8281,0.073,0.0006
+423,0,Role Player,1,Rotation Player,0,0.133,0.8133,0.0532,0.0005
+424,1,Rotation Player,0,Role Player,0,0.9337,0.0499,0.011,0.0054
+425,1,Rotation Player,1,Rotation Player,1,0.1802,0.7873,0.0321,0.0004
+426,2,Star,1,Rotation Player,0,0.1296,0.8339,0.036,0.0005
+427,0,Role Player,0,Role Player,1,0.9797,0.0194,0.0007,0.0002
+428,0,Role Player,0,Role Player,1,0.9758,0.0218,0.0017,0.0007
+429,1,Rotation Player,1,Rotation Player,1,0.0246,0.5824,0.3895,0.0035
+430,2,Star,1,Rotation Player,0,0.1046,0.7917,0.1029,0.0008
+431,1,Rotation Player,0,Role Player,0,0.6027,0.3939,0.0033,0.0001
+432,1,Rotation Player,1,Rotation Player,1,0.2654,0.7211,0.0133,0.0003
+433,1,Rotation Player,1,Rotation Player,1,0.0231,0.71,0.2658,0.0011
+434,2,Star,2,Star,1,0.0062,0.4601,0.5299,0.0037
+435,2,Star,2,Star,1,0.0016,0.1341,0.8573,0.007
+436,1,Rotation Player,0,Role Player,0,0.7422,0.2497,0.0076,0.0005
+437,1,Rotation Player,1,Rotation Player,1,0.355,0.6214,0.0229,0.0008
+438,0,Role Player,1,Rotation Player,0,0.0577,0.8865,0.0555,0.0004
+439,0,Role Player,0,Role Player,1,0.9368,0.0621,0.0009,0.0001
+440,0,Role Player,0,Role Player,1,0.9772,0.022,0.0006,0.0001
+441,1,Rotation Player,1,Rotation Player,1,0.1749,0.7906,0.034,0.0005
+442,0,Role Player,1,Rotation Player,0,0.1406,0.832,0.0271,0.0003
+443,1,Rotation Player,1,Rotation Player,1,0.2472,0.734,0.0184,0.0004
+444,0,Role Player,0,Role Player,1,0.8859,0.1124,0.0015,0.0001
+445,0,Role Player,0,Role Player,1,0.9442,0.0548,0.0008,0.0001
+446,0,Role Player,0,Role Player,1,0.9702,0.0281,0.0013,0.0004
+447,1,Rotation Player,1,Rotation Player,1,0.4598,0.5337,0.0063,0.0001
+448,0,Role Player,1,Rotation Player,0,0.4347,0.5589,0.0062,0.0002
+449,0,Role Player,0,Role Player,1,0.5881,0.4083,0.0035,0.0001
+450,0,Role Player,0,Role Player,1,0.8201,0.178,0.0018,0.0001
+451,1,Rotation Player,1,Rotation Player,1,0.0933,0.8382,0.0679,0.0006
+452,1,Rotation Player,1,Rotation Player,1,0.1292,0.8425,0.028,0.0003
+453,2,Star,1,Rotation Player,0,0.0244,0.7762,0.198,0.0014
+454,1,Rotation Player,1,Rotation Player,1,0.0116,0.6298,0.3569,0.0017
+455,2,Star,2,Star,1,0.0098,0.4295,0.5573,0.0034
+456,2,Star,2,Star,1,0.0011,0.0666,0.869,0.0634
+457,2,Star,1,Rotation Player,0,0.0139,0.6723,0.3124,0.0014
+458,2,Star,2,Star,1,0.005,0.436,0.5565,0.0025
+459,1,Rotation Player,1,Rotation Player,1,0.104,0.8647,0.031,0.0002
+460,0,Role Player,1,Rotation Player,0,0.4219,0.5686,0.0093,0.0002
+461,1,Rotation Player,0,Role Player,0,0.8369,0.1601,0.0029,0.0002
+462,1,Rotation Player,0,Role Player,0,0.6185,0.3761,0.0052,0.0002
+463,1,Rotation Player,0,Role Player,0,0.6334,0.3611,0.0052,0.0002
+464,0,Role Player,1,Rotation Player,0,0.3953,0.5894,0.0149,0.0005
+465,1,Rotation Player,1,Rotation Player,1,0.3661,0.5989,0.0342,0.0008
+466,1,Rotation Player,1,Rotation Player,1,0.1362,0.7836,0.0785,0.0017
+467,0,Role Player,1,Rotation Player,0,0.3287,0.6629,0.0083,0.0001
+468,0,Role Player,0,Role Player,1,0.5871,0.4075,0.0052,0.0001
+469,0,Role Player,0,Role Player,1,0.7618,0.223,0.0137,0.0015
+470,1,Rotation Player,1,Rotation Player,1,0.3704,0.617,0.0123,0.0003
+471,0,Role Player,0,Role Player,1,0.4967,0.4863,0.0164,0.0006
+472,0,Role Player,0,Role Player,1,0.8867,0.1095,0.0035,0.0003
+473,2,Star,2,Star,1,0.0132,0.4767,0.5055,0.0046
+474,2,Star,2,Star,1,0.0018,0.118,0.864,0.0162
+475,1,Rotation Player,1,Rotation Player,1,0.3295,0.6187,0.0503,0.0015
+476,0,Role Player,0,Role Player,1,0.66,0.3328,0.0068,0.0003
+477,0,Role Player,0,Role Player,1,0.715,0.2808,0.004,0.0002
+478,0,Role Player,1,Rotation Player,0,0.3012,0.6844,0.0142,0.0003
+479,1,Rotation Player,1,Rotation Player,1,0.1628,0.8113,0.0255,0.0004
+480,1,Rotation Player,1,Rotation Player,1,0.1059,0.8336,0.06,0.0005
+481,0,Role Player,0,Role Player,1,0.8572,0.1337,0.008,0.0011
+482,1,Rotation Player,1,Rotation Player,1,0.4555,0.5397,0.0047,0.0001
+483,1,Rotation Player,1,Rotation Player,1,0.4349,0.5604,0.0046,0.0001
+484,1,Rotation Player,1,Rotation Player,1,0.0537,0.7702,0.1741,0.002
+485,1,Rotation Player,1,Rotation Player,1,0.1411,0.8001,0.0581,0.0007
+486,0,Role Player,0,Role Player,1,0.9188,0.0642,0.0132,0.0037
+487,0,Role Player,0,Role Player,1,0.9012,0.0859,0.0106,0.0023
+488,0,Role Player,1,Rotation Player,0,0.2855,0.7041,0.0102,0.0002
+489,0,Role Player,0,Role Player,1,0.8647,0.1334,0.0018,0.0001
+490,2,Star,2,Star,1,0.003,0.1647,0.8176,0.0148
+491,2,Star,2,Star,1,0.0093,0.4777,0.51,0.0029
+492,1,Rotation Player,0,Role Player,0,0.7826,0.2148,0.0024,0.0002
+493,2,Star,3,Superstar,0,0.0014,0.0098,0.2621,0.7267
+494,3,Superstar,3,Superstar,1,0.0017,0.0142,0.3189,0.6651
+495,2,Star,1,Rotation Player,0,0.0203,0.8054,0.1738,0.0006
+496,1,Rotation Player,1,Rotation Player,1,0.0103,0.6127,0.3754,0.0015
+497,0,Role Player,0,Role Player,1,0.9078,0.089,0.0027,0.0005
+498,0,Role Player,1,Rotation Player,0,0.3737,0.6176,0.0086,0.0002
+499,0,Role Player,0,Role Player,1,0.5052,0.4638,0.0296,0.0014
+500,0,Role Player,0,Role Player,1,0.8048,0.1887,0.0061,0.0004
+501,1,Rotation Player,1,Rotation Player,1,0.1565,0.8196,0.0236,0.0002
+502,1,Rotation Player,1,Rotation Player,1,0.2366,0.7534,0.0099,0.0001
+503,1,Rotation Player,1,Rotation Player,1,0.1685,0.7404,0.0891,0.002
+504,1,Rotation Player,0,Role Player,0,0.5807,0.3469,0.0647,0.0078
+505,2,Star,2,Star,1,0.019,0.4173,0.5518,0.0119
+506,0,Role Player,0,Role Player,1,0.8067,0.1899,0.0032,0.0002
+507,0,Role Player,0,Role Player,1,0.7354,0.2596,0.0047,0.0003
+508,1,Rotation Player,1,Rotation Player,1,0.3076,0.6674,0.0245,0.0005
+509,1,Rotation Player,1,Rotation Player,1,0.1451,0.803,0.051,0.0009
+510,0,Role Player,0,Role Player,1,0.8155,0.1809,0.0034,0.0002
+511,0,Role Player,0,Role Player,1,0.5846,0.4106,0.0047,0.0001
+512,1,Rotation Player,0,Role Player,0,0.5391,0.4557,0.0051,0.0001
+513,3,Superstar,2,Star,0,0.0007,0.0511,0.9072,0.041
+514,3,Superstar,2,Star,0,0.0007,0.0339,0.8536,0.1118
+515,0,Role Player,0,Role Player,1,0.971,0.0276,0.0012,0.0003
+516,2,Star,0,Role Player,0,0.6093,0.3872,0.0034,0.0001
+517,0,Role Player,1,Rotation Player,0,0.4661,0.5257,0.008,0.0002
+518,1,Rotation Player,0,Role Player,0,0.7255,0.2715,0.0028,0.0002
+519,0,Role Player,1,Rotation Player,0,0.3518,0.6395,0.0086,0.0001
+520,1,Rotation Player,0,Role Player,0,0.6152,0.381,0.0037,0.0001
+521,0,Role Player,0,Role Player,1,0.9561,0.0418,0.0017,0.0004
+522,1,Rotation Player,1,Rotation Player,1,0.0492,0.8734,0.0769,0.0005
+523,1,Rotation Player,1,Rotation Player,1,0.0994,0.8754,0.0251,0.0002
+524,1,Rotation Player,1,Rotation Player,1,0.2081,0.7765,0.0152,0.0002
+525,1,Rotation Player,1,Rotation Player,1,0.1831,0.8054,0.0113,0.0001
+526,0,Role Player,0,Role Player,1,0.9479,0.0507,0.0012,0.0002
+527,0,Role Player,0,Role Player,1,0.9397,0.0584,0.0016,0.0002
+528,1,Rotation Player,1,Rotation Player,1,0.0696,0.8796,0.0505,0.0003
+529,1,Rotation Player,1,Rotation Player,1,0.0231,0.8603,0.1161,0.0006
+530,1,Rotation Player,1,Rotation Player,1,0.3554,0.6164,0.0275,0.0008
+531,1,Rotation Player,0,Role Player,0,0.5809,0.4028,0.0156,0.0007
+532,1,Rotation Player,1,Rotation Player,1,0.1912,0.798,0.0107,0.0001
+533,2,Star,0,Role Player,0,0.5333,0.461,0.0056,0.0001
+534,1,Rotation Player,1,Rotation Player,1,0.0412,0.8522,0.1059,0.0006
+535,1,Rotation Player,1,Rotation Player,1,0.0871,0.7785,0.1321,0.0023
+536,2,Star,1,Rotation Player,0,0.1754,0.8006,0.0238,0.0002
+537,1,Rotation Player,1,Rotation Player,1,0.4776,0.5109,0.011,0.0004
+538,1,Rotation Player,0,Role Player,0,0.567,0.4281,0.0048,0.0001
+539,1,Rotation Player,2,Star,0,0.0061,0.3827,0.6076,0.0036
+540,2,Star,1,Rotation Player,0,0.0149,0.6997,0.2844,0.001
+541,1,Rotation Player,0,Role Player,0,0.6864,0.3044,0.0089,0.0003
+542,0,Role Player,1,Rotation Player,0,0.4805,0.4902,0.028,0.0013
+543,0,Role Player,0,Role Player,1,0.8612,0.1349,0.0037,0.0003
+544,1,Rotation Player,0,Role Player,0,0.9029,0.0933,0.0034,0.0004
+545,1,Rotation Player,2,Star,0,0.0077,0.3355,0.6514,0.0054
+546,1,Rotation Player,1,Rotation Player,1,0.0489,0.7903,0.1595,0.0013
+547,0,Role Player,0,Role Player,1,0.7795,0.2157,0.0046,0.0003
+548,1,Rotation Player,2,Star,0,0.0143,0.24,0.6782,0.0675
+549,1,Rotation Player,1,Rotation Player,1,0.3426,0.6509,0.0064,0.0001
+550,1,Rotation Player,1,Rotation Player,1,0.3194,0.6746,0.0058,0.0001
+551,0,Role Player,0,Role Player,1,0.5468,0.4475,0.0056,0.0002
+552,1,Rotation Player,0,Role Player,0,0.8576,0.1406,0.0017,0.0001
+553,1,Rotation Player,1,Rotation Player,1,0.0567,0.8475,0.0947,0.001
+554,0,Role Player,0,Role Player,1,0.5152,0.4807,0.004,0.0001
+555,0,Role Player,0,Role Player,1,0.7534,0.2447,0.0018,0.0001
+556,1,Rotation Player,1,Rotation Player,1,0.1876,0.7957,0.0166,0.0002
+557,0,Role Player,1,Rotation Player,0,0.0221,0.7653,0.2114,0.0012
+558,1,Rotation Player,0,Role Player,0,0.6123,0.3799,0.0076,0.0002
+559,0,Role Player,0,Role Player,1,0.9302,0.0666,0.0028,0.0004
+560,2,Star,1,Rotation Player,0,0.1142,0.8516,0.0337,0.0004
+561,1,Rotation Player,1,Rotation Player,1,0.0456,0.8284,0.125,0.001
+562,1,Rotation Player,2,Star,0,0.0111,0.4905,0.4955,0.003
+563,2,Star,1,Rotation Player,0,0.012,0.5876,0.3985,0.002
+564,0,Role Player,0,Role Player,1,0.7605,0.2373,0.0021,0.0001
+565,0,Role Player,0,Role Player,1,0.9131,0.0859,0.0009,0.0001
+566,0,Role Player,0,Role Player,1,0.9707,0.027,0.0018,0.0006
+567,0,Role Player,0,Role Player,1,0.9601,0.0352,0.0036,0.0012
+568,1,Rotation Player,1,Rotation Player,1,0.0108,0.6115,0.3759,0.0017
+569,1,Rotation Player,1,Rotation Player,1,0.3476,0.6378,0.0143,0.0002
+570,0,Role Player,0,Role Player,1,0.537,0.4443,0.018,0.0007
+571,1,Rotation Player,1,Rotation Player,1,0.2406,0.7447,0.0145,0.0002
+572,1,Rotation Player,1,Rotation Player,1,0.3234,0.6623,0.014,0.0003
+573,0,Role Player,1,Rotation Player,0,0.444,0.5487,0.0071,0.0002
+574,0,Role Player,0,Role Player,1,0.6516,0.3445,0.0037,0.0001
+575,1,Rotation Player,1,Rotation Player,1,0.0539,0.9023,0.0434,0.0003
+576,1,Rotation Player,1,Rotation Player,1,0.2018,0.7885,0.0096,0.0001
+577,2,Star,1,Rotation Player,0,0.1866,0.7421,0.0697,0.0015
+578,1,Rotation Player,1,Rotation Player,1,0.0431,0.6737,0.2786,0.0046
+579,2,Star,1,Rotation Player,0,0.0727,0.8914,0.0357,0.0002
+580,2,Star,1,Rotation Player,0,0.035,0.8631,0.1014,0.0005
+581,2,Star,1,Rotation Player,0,0.027,0.8197,0.1525,0.0008
+582,0,Role Player,0,Role Player,1,0.7875,0.2073,0.0049,0.0003
+583,1,Rotation Player,0,Role Player,0,0.87,0.1269,0.0028,0.0002

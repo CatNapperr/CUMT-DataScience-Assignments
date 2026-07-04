@@ -1,0 +1,2 @@
+﻿实验,标签方案,特征维度,测试集Accuracy,Macro_F1,Weighted_F1,5类原Accuracy,5类原Macro_F1,Accuracy提升,Macro_F1提升
+朴素贝叶斯 3 超类分类,Big(C+PF) / Wing(SF+SG) / PG,8,0.7584,0.7526,0.7589,0.5374,0.5318,0.221,0.2207

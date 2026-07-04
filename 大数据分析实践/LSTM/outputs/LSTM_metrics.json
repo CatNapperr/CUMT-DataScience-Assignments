@@ -1,0 +1,33 @@
+{
+  "test_loss": 0.785669,
+  "accuracy": 0.680961,
+  "macro_precision": 0.730883,
+  "macro_recall": 0.572971,
+  "macro_f1": 0.612894,
+  "per_class": {
+    "Role Player": {
+      "precision": 0.709497,
+      "recall": 0.693989,
+      "f1": 0.701657,
+      "support": 183
+    },
+    "Rotation Player": {
+      "precision": 0.653595,
+      "recall": 0.760456,
+      "f1": 0.702988,
+      "support": 263
+    },
+    "Star": {
+      "precision": 0.703297,
+      "recall": 0.551724,
+      "f1": 0.618357,
+      "support": 116
+    },
+    "Superstar": {
+      "precision": 0.857143,
+      "recall": 0.285714,
+      "f1": 0.428571,
+      "support": 21
+    }
+  }
+}

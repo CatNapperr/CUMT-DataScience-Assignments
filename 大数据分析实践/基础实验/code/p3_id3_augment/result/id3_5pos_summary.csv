@@ -1,0 +1,2 @@
+﻿experiment,label_scheme,features,train_samples,test_samples,tree_depth,total_nodes,leaf_nodes,train_accuracy,test_accuracy,overfitting_gap,num_rules
+ID3-5位置,C+PF+SF+SG+PG,10,9291,3982,10,8219,5326,0.9487,0.5324,0.4163,5326
