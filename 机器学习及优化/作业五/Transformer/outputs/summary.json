@@ -1,0 +1,81 @@
+{
+  "dataset_name": "IMDB",
+  "device": "cuda",
+  "training_log_path": "outputs\\training_20260514_172727.log",
+  "config": {
+    "seed": 42,
+    "save_dir": "outputs",
+    "max_vocab_size": 20000,
+    "min_freq": 2,
+    "max_length": 256,
+    "val_ratio": 0.1,
+    "train_limit": 12000,
+    "val_limit": 2000,
+    "test_limit": 5000,
+    "batch_size": 32,
+    "transformer_epochs": 10,
+    "transformer_lr": 0.001,
+    "transformer_weight_decay": 0.0001,
+    "d_model": 128,
+    "n_heads": 4,
+    "n_layers": 4,
+    "ff_dim": 256,
+    "dropout": 0.1,
+    "early_stop_patience": 3,
+    "bert_model_name": "bert-base-uncased",
+    "bert_batch_size": 16,
+    "bert_epochs": 3,
+    "bert_lr": 2e-05,
+    "num_workers": 0
+  },
+  "dataset_stats": {
+    "mean_length": 265.19641666666666,
+    "median_length": 197.0,
+    "max_length": 2732.0,
+    "min_length": 11.0
+  },
+  "scratch_transformer": {
+    "test_loss": 0.41648609783649443,
+    "accuracy": 0.82,
+    "f1": 0.8199279711884754,
+    "confusion_matrix": [
+      [
+        2051,
+        449
+      ],
+      [
+        451,
+        2049
+      ]
+    ]
+  },
+  "bert": {
+    "test_loss": 0.2577880606390536,
+    "accuracy": 0.9184,
+    "f1": 0.919047619047619,
+    "confusion_matrix": [
+      [
+        2276,
+        224
+      ],
+      [
+        184,
+        2316
+      ]
+    ]
+  },
+  "tfidf_lr": {
+    "accuracy": 0.8656,
+    "f1": 0.8662420382165605,
+    "confusion_matrix": [
+      [
+        2152,
+        348
+      ],
+      [
+        324,
+        2176
+      ]
+    ]
+  }
+}

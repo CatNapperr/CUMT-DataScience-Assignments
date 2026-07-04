@@ -1,0 +1,19 @@
+name: transformer-text-cls
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy>=1.26,<3
+  - pandas>=2.0,<3
+  - matplotlib>=3.8,<4
+  - scikit-learn>=1.4,<2
+  - tqdm>=4.66,<5
+  - pytorch>=2.2,<2.6
+  - pip:
+      - transformers>=4.40,<5
+      - datasets>=2.18,<4
+      - accelerate>=0.30,<2
+      - sentencepiece>=0.2,<1
+      - huggingface-hub>=0.23,<1

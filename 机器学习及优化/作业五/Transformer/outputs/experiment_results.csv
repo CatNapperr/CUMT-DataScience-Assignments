@@ -1,0 +1,4 @@
+﻿Model,Accuracy,F1
+Scratch Transformer,0.82,0.8199279711884754
+BERT Fine-tuning,0.9184,0.919047619047619
+TF-IDF + LogisticRegression,0.8656,0.8662420382165605
